@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+</head>
+<body>
+
+    <form action="Page5.html">
+        <table  border="11px" borderColor="pink" style="text-align: center;" >
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input id="fname" name="fname" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input id="lname" name="lname" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <label><input type="radio" name="gender" value="male"> Male</label><br>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Birthday</label></td>
+                <td>
+                    <select name="month">
+                        <option value="" disabled selected>Select a month</option>
+                        <option value="jan">January</option>
+                        <option value="feb">February</option>
+                        <option value="mar">March</option>
+                        <option value="apr">April</option>
+                        <option value="may">May</option>
+                        <option value="jun">June</option>
+                        <option value="jul">July</option>
+                        <option value="aug">August</option>
+                        <option value="sep">September</option>
+                        <option value="oct">October</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+                    </select>
+                    <input type="text" name="day" size="2" maxlength="2">
+                    <input type="text" name="year" size="4" maxlength="4">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><u><b><label for="interests" allign="center">Interests</label></u></b></td>
+            </tr>
+            <tr>
+                <td><label><input type="checkbox" name="interests" value="sports"> Sports</label></td>
+                <td><label><input type="checkbox" name="interests" value="music"> Music</label></td>
+            </tr>
+            <tr>
+                <td><label><input type="checkbox" name="interests" value="movies"> Movies</label></td>
+                <td><label><input type="checkbox" name="interests" value="books"> Books</label></td>
+            </tr>
+            <tr>
+                <td><label><input type="checkbox" name="interests" value="travel"> Travel</label></td>
+                <td><label><input type="checkbox" name="interests" value="other"> Other</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

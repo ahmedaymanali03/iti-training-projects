@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+ 
+table {
+    margin: 0 auto;
+    border-style:  outset;
+}
+tr {
+  
+    border: 2px solid;
+    border-style:outset;
+    border-color: rgb(185, 112, 124);}
+
+td{
+   min-width: 250px;
+    border-color: rgb(185, 112, 124);}
+  
+  label {
+    display: table-cell;
+    padding: 8px;
+    text-align: center;
+    border-style:inset;
+    border-color: rgb(185, 112, 124);
+    width: 4%;
+    
+  }
+  
+  
+  input, select {
+    display: table-cell;
+    padding: 8px;
+ 
+    border-color:rgb(185, 112, 124);
+  }
+  
+  .submit-button {
+    display: table-cell;
+    text-align: center;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,16 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+ 
+}
+legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f00;
+}
+form{
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+}
