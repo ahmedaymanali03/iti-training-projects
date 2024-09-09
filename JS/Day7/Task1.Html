@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="cookies.js"></script>
+    <script src="task1.js"></script>
+    
+</head>
+<body onload="incrementCounter()">
+    <b><label for="userName">User Name:</label></b> 
+    <input type="text" id="userName">
+    <br>
+    <b><label for="age">Age:</label></b> 
+    <input type="text" id="age">
+    <br>
+    <b><label>Select your gender:</label></b> 
+    <br>
+    <input type="radio" name="gender" id="genderMale" value="male">
+    <label for="genderMale">
+        <img src="1.jpg" alt="Male">
+    </label>
+
+    <input type="radio" name="gender" id="genderFemale" value="female">
+    <label for="genderFemale">
+        <img src="2.jpg" alt="Female">
+    </label>
+    <br><br>
+    <b><label for="color">Select your favorite color:</label></b> 
+    <select id="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+    </select>
+    <br><br>
+    <button onclick="saveFormData()">Register</button>
+    <br><br>
+</body>
+</html>
